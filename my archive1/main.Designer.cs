@@ -30,6 +30,8 @@
         {
             this.tileBar1 = new DevExpress.XtraBars.Navigation.TileBar();
             this.pn_contaier = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pn_contaier.SuspendLayout();
             this.SuspendLayout();
             // 
             // tileBar1
@@ -45,11 +47,21 @@
             // 
             // pn_contaier
             // 
+            this.pn_contaier.Controls.Add(this.label1);
             this.pn_contaier.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pn_contaier.Location = new System.Drawing.Point(0, 98);
             this.pn_contaier.Name = "pn_contaier";
             this.pn_contaier.Size = new System.Drawing.Size(1078, 582);
             this.pn_contaier.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(92, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Test Label";
             // 
             // main
             // 
@@ -63,6 +75,8 @@
             this.Name = "main";
             this.Text = "Arshif";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.pn_contaier.ResumeLayout(false);
+            this.pn_contaier.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -71,6 +85,7 @@
 
         private DevExpress.XtraBars.Navigation.TileBar tileBar1;
         private System.Windows.Forms.Panel pn_contaier;
+        private System.Windows.Forms.Label label1;
     }
 }
 
