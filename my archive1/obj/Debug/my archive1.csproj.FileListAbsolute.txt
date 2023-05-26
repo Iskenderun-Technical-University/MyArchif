@@ -1,0 +1,32 @@
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\my archive1.exe.config
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\my archive1.exe
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\my archive1.pdb
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my_archive1.main.resources
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my_archive1.Properties.Resources.resources
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.CopyComplete
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.exe
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.pdb
