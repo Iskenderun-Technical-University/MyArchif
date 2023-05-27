@@ -46,5 +46,11 @@ namespace my_archive1
         {
 
         }
+
+        private void btn_sec_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            pages.DepPage page = new pages.DepPage();
+            LoadPage(page);
+        }
     }
 }

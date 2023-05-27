@@ -41,6 +41,9 @@
     <Reference Include="DevExpress.XtraEditors.v22.2" />
     <Reference Include="DevExpress.Printing.v22.2.Core" />
     <Reference Include="DevExpress.Drawing.v22.2" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,6 +62,12 @@
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
+    <Compile Include="pages\DepPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\DepPage.Designer.cs">
+      <DependentUpon>DepPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="pages\homePage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -69,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\DepPage.resx">
+      <DependentUpon>DepPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\homePage.resx">
       <DependentUpon>homePage.cs</DependentUpon>

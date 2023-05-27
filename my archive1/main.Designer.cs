@@ -115,6 +115,7 @@
             this.btn_sec.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.btn_sec.Name = "btn_sec";
             this.btn_sec.Padding = new System.Windows.Forms.Padding(11);
+            this.btn_sec.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.btn_sec_ItemClick);
             // 
             // btn_users
             // 

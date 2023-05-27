@@ -32,3 +32,16 @@ C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.exe
 C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.pdb
 C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my_archive1.pages.homePage.resources
 C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.exe.licenses
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my_archive1.pages.DepPage.resources
