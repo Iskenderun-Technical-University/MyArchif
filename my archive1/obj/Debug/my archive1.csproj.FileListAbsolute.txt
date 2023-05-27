@@ -30,3 +30,5 @@ C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.CoreComp
 C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.csproj.CopyComplete
 C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.exe
 C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.pdb
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my_archive1.pages.homePage.resources
+C:\Users\DELL\Desktop\MyArchif\my archive1\obj\Debug\my archive1.exe.licenses

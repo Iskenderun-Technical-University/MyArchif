@@ -59,11 +59,21 @@
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
+    <Compile Include="pages\homePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\homePage.Designer.cs">
+      <DependentUpon>homePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pages\homePage.resx">
+      <DependentUpon>homePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,7 +97,6 @@
   <ItemGroup>
     <Folder Include="Addpage\" />
     <Folder Include="BL\" />
-    <Folder Include="pages\" />
     <Folder Include="PL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
