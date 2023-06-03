@@ -58,6 +58,24 @@ namespace Tic_Tac_Toe
                 wineffect(btn7, btn8, btn9);
                 win = true;
             }
+            else if (btn1.Text != "" && btn1.Text == btn4.Text && btn1.Text == btn7.Text)
+
+            {
+                wineffect(btn1, btn4, btn7);
+                win = true;
+            }
+            else if (btn2.Text != "" && btn2.Text == btn5.Text && btn2.Text == btn8.Text)
+
+            {
+                wineffect(btn2, btn5, btn8);
+                win = true;
+            }
+            else if (btn3.Text != "" && btn3.Text == btn6.Text && btn3.Text == btn9.Text)
+
+            {
+                wineffect(btn3, btn6, btn9);
+                win = true;
+            }
         }
 
         private void frm_OnePlayer_Load(object sender, EventArgs e)
