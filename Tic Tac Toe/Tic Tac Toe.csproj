@@ -58,10 +58,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_OnePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_OnePlayer.Designer.cs">
+      <DependentUpon>frm_OnePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TwoPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TwoPlayer.Designer.cs">
+      <DependentUpon>frm_TwoPlayer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_OnePlayer.resx">
+      <DependentUpon>frm_OnePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TwoPlayer.resx">
+      <DependentUpon>frm_TwoPlayer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

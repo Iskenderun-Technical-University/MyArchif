@@ -33,3 +33,5 @@ C:\Users\DELL\Desktop\TicTacToe\Tic Tac Toe\obj\Debug\Tic Tac Toe.csproj.CoreCom
 C:\Users\DELL\Desktop\TicTacToe\Tic Tac Toe\obj\Debug\Tic Tac Toe.csproj.CopyComplete
 C:\Users\DELL\Desktop\TicTacToe\Tic Tac Toe\obj\Debug\Tic Tac Toe.exe
 C:\Users\DELL\Desktop\TicTacToe\Tic Tac Toe\obj\Debug\Tic Tac Toe.pdb
+C:\Users\DELL\Desktop\TicTacToe\Tic Tac Toe\obj\Debug\Tic_Tac_Toe.frm_OnePlayer.resources
+C:\Users\DELL\Desktop\TicTacToe\Tic Tac Toe\obj\Debug\Tic_Tac_Toe.frm_TwoPlayer.resources
