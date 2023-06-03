@@ -16,5 +16,25 @@ namespace Tic_Tac_Toe
         {
             InitializeComponent();
         }
+
+        private void frm_OnePlayer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
