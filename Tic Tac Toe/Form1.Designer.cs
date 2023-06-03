@@ -429,6 +429,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bosk Test", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(197)))), ((int)(((byte)(88)))));
@@ -487,6 +489,7 @@
             this.btnOnePlayer.Size = new System.Drawing.Size(318, 70);
             this.btnOnePlayer.TabIndex = 11;
             this.btnOnePlayer.Text = "1 Player";
+            this.btnOnePlayer.Click += new System.EventHandler(this.btnOnePlayer_Click);
             // 
             // btnTwoPlayer
             // 
@@ -503,6 +506,7 @@
             this.btnTwoPlayer.Size = new System.Drawing.Size(318, 70);
             this.btnTwoPlayer.TabIndex = 12;
             this.btnTwoPlayer.Text = "2 Player";
+            this.btnTwoPlayer.Click += new System.EventHandler(this.btnTwoPlayer_Click);
             // 
             // btnExit
             // 
@@ -519,6 +523,7 @@
             this.btnExit.Size = new System.Drawing.Size(318, 70);
             this.btnExit.TabIndex = 13;
             this.btnExit.Text = "Exit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // FrmMain
             // 
