@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
@@ -55,6 +56,11 @@
             this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnOnePlayer = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTwoPlayer = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
@@ -67,6 +73,8 @@
             this.guna2Panel19.SuspendLayout();
             this.guna2Panel20.SuspendLayout();
             this.guna2Panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -424,7 +432,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bosk Test", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(197)))), ((int)(((byte)(88)))));
-            this.label1.Location = new System.Drawing.Point(53, 82);
+            this.label1.Location = new System.Drawing.Point(54, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(413, 99);
             this.label1.TabIndex = 7;
@@ -432,14 +440,85 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Reitam", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(176, 193);
+            this.label2.Location = new System.Drawing.Point(175, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 51);
             this.label2.TabIndex = 8;
             this.label2.Text = "Game";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(155, 199);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(99, 101);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(260, 199);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(106, 101);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnOnePlayer
+            // 
+            this.btnOnePlayer.BorderRadius = 15;
+            this.btnOnePlayer.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOnePlayer.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOnePlayer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOnePlayer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOnePlayer.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnOnePlayer.Font = new System.Drawing.Font("Hangar", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnePlayer.ForeColor = System.Drawing.Color.White;
+            this.btnOnePlayer.Location = new System.Drawing.Point(98, 364);
+            this.btnOnePlayer.Name = "btnOnePlayer";
+            this.btnOnePlayer.Size = new System.Drawing.Size(318, 70);
+            this.btnOnePlayer.TabIndex = 11;
+            this.btnOnePlayer.Text = "1 Player";
+            // 
+            // btnTwoPlayer
+            // 
+            this.btnTwoPlayer.BorderRadius = 15;
+            this.btnTwoPlayer.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTwoPlayer.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTwoPlayer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTwoPlayer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTwoPlayer.FillColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnTwoPlayer.Font = new System.Drawing.Font("Hangar", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTwoPlayer.ForeColor = System.Drawing.Color.White;
+            this.btnTwoPlayer.Location = new System.Drawing.Point(98, 456);
+            this.btnTwoPlayer.Name = "btnTwoPlayer";
+            this.btnTwoPlayer.Size = new System.Drawing.Size(318, 70);
+            this.btnTwoPlayer.TabIndex = 12;
+            this.btnTwoPlayer.Text = "2 Player";
+            // 
+            // btnExit
+            // 
+            this.btnExit.BorderRadius = 15;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.IndianRed;
+            this.btnExit.Font = new System.Drawing.Font("Hangar", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(98, 552);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(318, 70);
+            this.btnExit.TabIndex = 13;
+            this.btnExit.Text = "Exit";
             // 
             // FrmMain
             // 
@@ -447,6 +526,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(64)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(516, 676);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnTwoPlayer);
+            this.Controls.Add(this.btnOnePlayer);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Panel18);
@@ -469,6 +553,8 @@
             this.guna2Panel19.ResumeLayout(false);
             this.guna2Panel20.ResumeLayout(false);
             this.guna2Panel23.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -503,6 +589,11 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel25;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private Guna.UI2.WinForms.Guna2Button btnOnePlayer;
+        private Guna.UI2.WinForms.Guna2Button btnTwoPlayer;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
     }
 }
 
