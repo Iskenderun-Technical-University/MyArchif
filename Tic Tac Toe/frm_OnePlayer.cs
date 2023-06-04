@@ -28,7 +28,7 @@ namespace Tic_Tac_Toe
         {
             b1.ForeColor = Color.FromArgb(84, 180, 53);
             b2.ForeColor = Color.FromArgb(84, 180, 53);
-            b2.ForeColor = Color.FromArgb(84, 180, 53);
+            b3.ForeColor = Color.FromArgb(84, 180, 53);
             if (b1.Text== "X")
             {
                 player1++;
@@ -144,7 +144,7 @@ namespace Tic_Tac_Toe
                 int index = rand.Next(buttons.Count);
                 if (buttons[index].Text == "")
                 {
-                    buttons[index].ForeColor = Color.Lime;
+                    buttons[index].ForeColor = Color.FromArgb(245, 197, 88);
                     buttons[index].Text = "0";
                     getthewinner();
                     move.Stop();

@@ -77,7 +77,7 @@
             this.btn3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn3.FillColor = System.Drawing.Color.Empty;
-            this.btn3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn3.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(375, 33);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(120, 111);
@@ -92,7 +92,7 @@
             this.btn2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn2.FillColor = System.Drawing.Color.Empty;
-            this.btn2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn2.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(200, 33);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(120, 111);
@@ -106,7 +106,7 @@
             this.btn1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn1.FillColor = System.Drawing.Color.Empty;
-            this.btn1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(28, 33);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(120, 111);
@@ -120,7 +120,7 @@
             this.btn6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn6.FillColor = System.Drawing.Color.Empty;
-            this.btn6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn6.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(375, 175);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(120, 111);
@@ -135,7 +135,7 @@
             this.btn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn5.FillColor = System.Drawing.Color.Empty;
-            this.btn5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn5.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(200, 175);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(120, 111);
@@ -149,7 +149,7 @@
             this.btn4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn4.FillColor = System.Drawing.Color.Empty;
-            this.btn4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn4.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(28, 175);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(120, 111);
@@ -163,7 +163,7 @@
             this.btn9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn9.FillColor = System.Drawing.Color.Empty;
-            this.btn9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn9.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(375, 313);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(120, 111);
@@ -177,7 +177,7 @@
             this.btn8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn8.FillColor = System.Drawing.Color.Empty;
-            this.btn8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn8.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(200, 313);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(120, 111);
@@ -191,7 +191,7 @@
             this.btn7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn7.FillColor = System.Drawing.Color.Empty;
-            this.btn7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn7.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(28, 313);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(120, 111);
