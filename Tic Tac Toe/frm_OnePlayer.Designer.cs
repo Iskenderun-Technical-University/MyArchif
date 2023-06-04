@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btn3 = new Guna.UI2.WinForms.Guna2Button();
             this.btn2 = new Guna.UI2.WinForms.Guna2Button();
             this.btn1 = new Guna.UI2.WinForms.Guna2Button();
@@ -41,7 +42,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelOfButtens = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnPlayAgain = new Guna.UI2.WinForms.Guna2Button();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
@@ -60,7 +61,8 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.panel2.SuspendLayout();
+            this.move = new System.Windows.Forms.Timer(this.components);
+            this.panelOfButtens.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
@@ -227,26 +229,26 @@
             this.panel6.Size = new System.Drawing.Size(420, 1);
             this.panel6.TabIndex = 31;
             // 
-            // panel2
+            // panelOfButtens
             // 
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.btn7);
-            this.panel2.Controls.Add(this.btn8);
-            this.panel2.Controls.Add(this.btn9);
-            this.panel2.Controls.Add(this.btn4);
-            this.panel2.Controls.Add(this.btn5);
-            this.panel2.Controls.Add(this.btn6);
-            this.panel2.Controls.Add(this.btn1);
-            this.panel2.Controls.Add(this.btn2);
-            this.panel2.Controls.Add(this.btn3);
-            this.panel2.Location = new System.Drawing.Point(36, 52);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(523, 460);
-            this.panel2.TabIndex = 18;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.panelOfButtens.Controls.Add(this.panel6);
+            this.panelOfButtens.Controls.Add(this.panel5);
+            this.panelOfButtens.Controls.Add(this.panel4);
+            this.panelOfButtens.Controls.Add(this.panel3);
+            this.panelOfButtens.Controls.Add(this.btn7);
+            this.panelOfButtens.Controls.Add(this.btn8);
+            this.panelOfButtens.Controls.Add(this.btn9);
+            this.panelOfButtens.Controls.Add(this.btn4);
+            this.panelOfButtens.Controls.Add(this.btn5);
+            this.panelOfButtens.Controls.Add(this.btn6);
+            this.panelOfButtens.Controls.Add(this.btn1);
+            this.panelOfButtens.Controls.Add(this.btn2);
+            this.panelOfButtens.Controls.Add(this.btn3);
+            this.panelOfButtens.Location = new System.Drawing.Point(36, 52);
+            this.panelOfButtens.Name = "panelOfButtens";
+            this.panelOfButtens.Size = new System.Drawing.Size(523, 460);
+            this.panelOfButtens.TabIndex = 18;
+            this.panelOfButtens.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel1
             // 
@@ -495,13 +497,17 @@
             this.guna2Panel10.Size = new System.Drawing.Size(5, 572);
             this.guna2Panel10.TabIndex = 9;
             // 
+            // move
+            // 
+            this.move.Tick += new System.EventHandler(this.move_Tick);
+            // 
             // frm_OnePlayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(64)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(1038, 582);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelOfButtens);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPlayAgain);
@@ -519,7 +525,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_OnePlayer";
             this.Load += new System.EventHandler(this.frm_OnePlayer_Load);
-            this.panel2.ResumeLayout(false);
+            this.panelOfButtens.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel7.ResumeLayout(false);
@@ -544,7 +550,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelOfButtens;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Button btnPlayAgain;
         private Guna.UI2.WinForms.Guna2Button btnExit;
@@ -563,5 +569,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel18;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
+        private System.Windows.Forms.Timer move;
     }
 }

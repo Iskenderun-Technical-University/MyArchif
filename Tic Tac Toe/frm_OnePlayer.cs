@@ -76,11 +76,43 @@ namespace Tic_Tac_Toe
                 wineffect(btn3, btn6, btn9);
                 win = true;
             }
+            else if (btn1.Text != "" && btn1.Text == btn5.Text && btn1.Text == btn9.Text)
+
+            {
+                wineffect(btn1, btn5, btn9);
+                win = true;
+            }
+            else if (btn3.Text != "" && btn3.Text == btn5.Text && btn3.Text == btn7.Text)
+
+            {
+                wineffect(btn3, btn5, btn7);
+                win = true;
+            }
+
         }
 
         private void frm_OnePlayer_Load(object sender, EventArgs e)
         {
-
+            foreach (Control c in panelOfButtens.Controls)
+            {
+                if (c is Guna.UI2.WinForms.Guna2Button)
+                {
+                    c.Click += new System.EventHandler(btn_click);
+                }
+            }
+            loadbuttons();
+        }
+        public void btn_click(object sender, EventArgs e)
+        {
+            Guna.UI2.WinForms.Guna2Button btn=(Guna.UI2.WinForms.Guna2Button)sender;
+            if(btn.Text.Equals(""))
+            {
+                btn.Text = "X";
+                btn.ForeColor = Color.FromArgb(245, 197, 88);
+                buttons.Remove(btn);
+                getthewinner();
+                move.Start();
+            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -103,6 +135,21 @@ namespace Tic_Tac_Toe
             this.Close();
             FrmMain frm = new FrmMain();
             frm.Show();
+        }
+
+        private void move_Tick(object sender, EventArgs e)
+        {
+            if(buttons.Count > 0 && win == false)
+            {
+                int index = rand.Next(buttons.Count);
+                if (buttons[index].Text == "")
+                {
+                    buttons[index].ForeColor = Color.Lime;
+                    buttons[index].Text = "0";
+                    getthewinner();
+                    move.Stop();
+                }
+            }
         }
     }
 }
