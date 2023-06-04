@@ -151,5 +151,18 @@ namespace Tic_Tac_Toe
                 }
             }
         }
+
+        private void btnPlayAgain_Click(object sender, EventArgs e)
+        {
+            loadbuttons();
+            win = false;
+            foreach(Control c in panelOfButtens.Controls)
+            {
+                if(c is Guna.UI2.WinForms.Guna2Button)
+                {
+                    c.Text = "";
+                }
+            }
+        }
     }
 }

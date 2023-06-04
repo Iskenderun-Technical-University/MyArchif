@@ -273,6 +273,7 @@
             this.btnPlayAgain.Size = new System.Drawing.Size(318, 70);
             this.btnPlayAgain.TabIndex = 15;
             this.btnPlayAgain.Text = "Play Again";
+            this.btnPlayAgain.Click += new System.EventHandler(this.btnPlayAgain_Click);
             // 
             // btnExit
             // 
